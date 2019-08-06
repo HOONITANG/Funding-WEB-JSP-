@@ -1,0 +1,91 @@
+figure {
+    margin: 0px;
+}
+div.totalmenu {
+    width: 1260px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+div.card {
+    width: 400px;
+    float: left;
+    margin: 10px;
+    position: relative;
+}
+figure.menu-graphic {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    position: relative;
+}
+/* On mouse-over, add a deeper shadow */
+figure.menu-graphic:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer; 
+}
+/* Add some padding inside the card container */
+figure.menu-graphic figcaption {
+    box-sizing: border-box;
+    width: 100%;
+    float: right;
+    padding: 2px 16px;
+    top: 0;
+    overflow: hidden;
+}
+figure.menu-graphic {
+	overflow: hidden;
+}
+figure.menu-graphic h1 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+} 
+figure.menu-graphic img {
+	width: 200px;
+	float: left;
+}
+figure.menu-graphic .dtext {
+	float: right;
+	width: 50%;
+	height: 200px;
+}
+
+figure.menu-graphic p {
+	text-align: center;
+	margin: 10%;
+    overflow: hidden;
+}
+
+.card .goal_money {
+	float: left;
+	font-weight: bold;
+}
+div.card .tag {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+div.card .tag a {
+    display: inline-block; 
+    text-decoration: none;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #7e91ab;
+    background: #f0f5fc;
+    border-radius: 10px;
+    margin-right: 4px;
+    padding: 0 8px;
+}
+div.card .tag a:nth-of-type(1):hover {
+	color: dodgerblue;
+}
+div.card .tag a:nth-of-type(2):hover {
+	color: #DD2929;
+}
+
+
+
+
+

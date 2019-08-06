@@ -1,0 +1,53 @@
+@charset "EUC-KR";
+body, html, ul, li, h2 {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+div.wrapper {
+    text-align: center;
+    width: 420px;
+    height: 420px;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+div.wrapper .join_wrapper {
+    text-align: left;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+div.join_wrapper .frm_input_wrapper {
+    margin: 10px auto;
+} 
+
+div.frm_input_wrapper .frm_input {
+    width: 300px;
+    height: 30px;
+}
+div.frm_input_wrapper .frm_input::placeholder {
+/*    text-align: center;*/
+	color: lightgray;
+}
+
+div.join_wrapper frm_submit_wrapper {
+    text-align: center;
+}
+
+div.frm_input_wrapper p {
+	visibility: hidden;
+	padding: 0px;
+    margin: 0px;
+    color: red;
+}
+
+div.frm_input_wrapper p.showing {
+    padding: 0px;
+    margin: 0px;
+    color: red;
+    visibility: visible;
+}
+

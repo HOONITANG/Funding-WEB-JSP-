@@ -1,0 +1,42 @@
+body,ul, li {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+div.content_wrapper {
+    border: 2px solid black;
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+}
+figure {
+    margin: 10%;
+}
+.button {
+
+    width:100%;
+
+    background-color: #f8585b;
+
+    border: none;
+
+    color:#fff;
+
+    padding: 15px 0;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 15px;
+
+    margin: 4px;
+
+    cursor: pointer;
+
+}
+
+figure .detail_image { max-width: 100%; height: auto; }
